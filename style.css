@@ -1,0 +1,118 @@
+body{
+    background-color: #E4C2C6;
+}
+/*----------------h1_stuff--------------*/
+h1{
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: block;
+    width: 400px;
+    text-align: center;
+    border: 1px white solid;
+    background-color: #CD9FCC;
+    border-radius: 100px;
+}
+#headerwordrock{
+    margin-right: 10px;
+    color: #464542;
+    text-shadow: 0px 0px 2px black;
+}
+#headerwordpaper{
+    margin-right: 10px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 2px black;
+}
+#headerwordscissors{
+    color: rgb(29, 25, 25);
+    text-shadow: 0px 0px 2px black;
+}
+/*--------------buttons-------------*/
+.choice{
+    background-color: #F6CACA;
+    color: #CD9FCC;
+    accent-color: #8A84E2;
+}
+.choice :active{
+    box-shadow:#8A84E2 0px 0px 5px;
+}
+.choice :hover{
+    box-shadow:#7f77f8 0px 0px 5px;
+}
+
+
+
+/*--------------boxes-----------------------*/
+.maincontainer{
+    background-color: #F6CACA;
+    margin: auto;
+    height: 600px;
+    width: 500px;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 25px;
+}
+#picbox{
+    position: relative;
+    bottom: -50px;
+    margin: auto;
+    width: 250px;
+    height: 70px;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 30px;
+}
+.inputholder div{
+    top: 100px;
+    left: 120px;
+    text-align: center;
+    border-radius: 30px;
+}
+#userinputboxR{
+    color: #464542;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border: 2px rgb(255, 255, 255) solid;
+}
+#userinputboxP{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border: 2px rgb(255, 255, 255) solid;
+}
+#userinputboxS{
+    color: rgb(29, 25, 25);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border: 2px rgb(255, 255, 255) solid;
+}
+#subbutt{
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 100px;
+    right: -210px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+#resultpanel{
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border: 2px rgb(255, 255, 255) solid;
+    position: relative;
+    left: 125px;
+}

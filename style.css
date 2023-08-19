@@ -29,17 +29,21 @@ h1{
 }
 /*--------------buttons-------------*/
 .choice{
-    background-color: #F6CACA;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    border-radius: 100px;
+    border: 1px white solid;
+    background-color: #8A84E2;
     color: #CD9FCC;
     accent-color: #8A84E2;
 }
-.choice :active{
-    box-shadow:#8A84E2 0px 0px 5px;
+.choice:hover{
+    background-color: rgb(113, 241, 241);
 }
-.choice :hover{
-    box-shadow:#7f77f8 0px 0px 5px;
+.choice:active{
+    background-color: orange;
 }
-
 
 
 /*--------------boxes-----------------------*/
@@ -97,22 +101,18 @@ h1{
     height: 80px;
     border: 2px rgb(255, 255, 255) solid;
 }
-#subbutt{
-    margin-top: 10px;
-    display: block;
-    position: relative;
-    text-align: center;
-    top: 100px;
-    right: -210px;
-    margin-bottom: 10px;
-    border-radius: 30px;
-}
+
 
 #resultpanel{
+    margin-top: 15px;
     text-align: center;
     width: 250px;
     height: 50px;
     border: 2px rgb(255, 255, 255) solid;
     position: relative;
     left: 125px;
+}
+#result{
+    position: relative;
+    bottom: 20px;
 }

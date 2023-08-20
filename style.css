@@ -44,6 +44,29 @@ h1{
 .choice:active{
     background-color: orange;
 }
+#playBut{
+    display: block;
+    position: relative;
+    background-color:#6762b4;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px white;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    height: 30px;
+    width: 100px;
+}
+#playBut:hover{
+    cursor: pointer;
+    background-color: rgb(113, 241, 241);
+    color: black;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 0px 0px 10px white;
+}
+#playBut:active{
+    cursor: pointer;
+    background-color: orange;
+    color: yellow;
+}
 
 
 /*--------------boxes-----------------------*/
@@ -55,7 +78,11 @@ h1{
     border: 2px rgb(255, 255, 255) solid;
     border-radius: 25px;
 }
-#picbox{
+#butbox{
+    background-color: #8A84E2;
+    display: flex;
+    place-items: center;
+    justify-content: center;
     position: relative;
     bottom: -50px;
     margin: auto;

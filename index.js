@@ -44,6 +44,11 @@ document.getElementById("butS").onclick = function(){
    }
 }
 
+document.getElementById("playBut").onclick = function(){
+   location.reload();
+   document.getElementById("result").innerHTML = "Make your choice ~"
+}
+
 function printResultD(){
    document.getElementById("result").innerHTML = "Draw!"
 }
@@ -51,5 +56,5 @@ function printResultD(){
     document.getElementById("result").innerHTML = "Victory!";
 }
  function printResultL(){
-   document.getElementById("result").innerHTML = "Try again!";
+   document.getElementById("result").innerHTML = "Defeat";
 }
